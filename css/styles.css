@@ -1,0 +1,154 @@
+#title {
+    background-color: #ff4c68;
+    color: #fff;
+}
+body {
+    font-family: "Montserrat";
+}
+h1 {
+    font-family: "Montserrat";
+    font-size: 3.5rem !important;
+    line-height: 1.5;
+    font-weight: 550 !important;
+}
+h2 {
+    font-family: "montserrat";
+    font-weight: bold !important;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+h3{
+    font-family: "montserrat";
+    font-weight: 500 !important;
+}
+p{
+    color: #8f8f8f;
+}
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+/* nav barr */
+.navbar{
+    padding-bottom: 4.5rem !important;
+}
+.navbar-brand {
+    font-family: "Ubuntu";
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.nav-item {
+    padding: 0 18px ;
+}
+.nav-link {
+    font-size: 1.2rem;
+    font-family: "Montserrat Light";
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+}
+
+/*title image*/
+.title-img {
+    width: 45% ;
+    transform: rotate(25deg);
+    position: absolute;
+    right:30% ;
+}
+
+/*features*/
+#features {
+    padding: 7% 15%;
+    background-color: #fff;
+    position: relative;
+
+}
+.features-box {
+    text-align: center;
+    padding: 5% !important;
+}
+#features i{
+    color: #ef8172;
+    margin-bottom: 1rem;
+}
+#features i:hover {
+    color: #ff4c68;
+}
+
+/*Testimonials*/
+#testimonials { 
+    text-align: center;
+    background-color: #ef8172;
+    color: #fff;
+    
+}
+ #testimonials img {
+    width: 10%;
+    border-radius: 200%;
+    margin: 20px;
+ }
+ .carousel-item {
+    padding: 7% 25% ; 
+ }
+
+ #press {
+    text-align: center;
+    background-color: #ef8172;
+    padding-bottom: 3%;
+ }
+ #press img {
+    width: 15%;
+    margin: 20px 20px 50px;
+ }
+
+ /*pricing*/
+ #pricing {
+    padding: 100px;
+    text-align: center;
+ }
+ .pricing-col {
+    padding: 3% 2%;
+    text-align: center;
+ }
+
+ /*cta*/
+ #cta {
+    padding: 7% 15%;
+    background-color: #ff4c68;
+    color: #fff;
+    text-align: center;
+ }
+ .cta-head{
+    font-family: "Monserrat", sans-serif;
+    font-weight: bolder !important;
+    font-size: 3rem;
+    line-height: 1.5;
+ }
+
+
+ .footer-button{
+    margin: 5% 3% 5% 0;
+ }
+
+ #footer{
+    text-align: center;
+    padding: 7% 15%;
+ }
+ #footer i{
+    color: black;
+    margin: 20px 10px;
+ }
+
+ @media (max-width: 1028px) {
+    .title-img{
+        position: static;
+        transform: rotate(0);
+    }
+    #title{
+        text-align: center;
+    }
+ }
+
+
+ 
